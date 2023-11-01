@@ -1,0 +1,56 @@
+header {
+	display: flex;
+	align-items: center;
+	height: 193px;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+header img {
+	margin-left: 10%;
+}
+
+header h1 {
+	margin-left: 40px;
+	font-size: 48px;
+}
+
+.container {
+	height: 77vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container .counter > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .counter p {
+	width: 150px;
+	height: 150px;
+	border-radius: 15px;
+	background-color: #5c48d3;
+	color: white;
+	text-align: center;
+	line-height: 150px;
+	font-size: 96px;
+	margin: 0 40px;
+}
+
+.reset-count button {
+	width: 150px;
+	height: 60px;
+	border-radius: 15px;
+	background-color: #5c48d3;
+	border: none;
+	color: white;
+	margin-top: 60px;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.container .counter .disabled {
+	opacity: 0.5;
+}
